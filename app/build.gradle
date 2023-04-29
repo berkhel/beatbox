@@ -53,3 +53,10 @@ jacocoTestReport{
         xml.enabled true //provide xml for sonarqube dashboard
     }
 }
+
+sonar {
+    properties{
+	property "sonar.java.checkstyle.reportPaths", "$buildDir/reports/checkstyle/main.xml,$buildDir/reports/checkstyle/test.xml"
+
+    }
+}
