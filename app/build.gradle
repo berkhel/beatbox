@@ -45,5 +45,4 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-println project.configurations.checkstyle
-println rootProject.files().getFrom().toString()
+
