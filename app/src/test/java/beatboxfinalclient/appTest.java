@@ -9,4 +9,9 @@ public class appTest{
     public void simpleTest(){
 	assertEquals(5,new BeatBoxFinal().simpleSum(2,3));
     }
+
+    @Test
+    public void brokenTest(){
+	assertEquals(0,1);
+    }
 }
