@@ -351,6 +351,9 @@ public class BeatBoxFinal{
 	}
     }
 
+    public int simpleSum(int a, int b){
+	return a+b;
+    }
 }
 
 
