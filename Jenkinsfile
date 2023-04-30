@@ -5,7 +5,7 @@ node {
   }
   stage('SonarQube Analysis') {
     withSonarQubeEnv() {
-      sh "./gradlew sonar -Dsonar.token=${SONAR_TOKEN}"
+      sh "./gradlew sonar -Dsonar.token=${credentials($SONAR_TOKEN)}"
     }
   }
 }
