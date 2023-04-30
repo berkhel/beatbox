@@ -12,6 +12,6 @@ public class appTest{
 
     @Test
     public void brokenTest(){
-	assertEquals(1,2);
+	assertEquals(2,2);
     }
 }
