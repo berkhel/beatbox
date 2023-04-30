@@ -60,7 +60,6 @@ sonar {
 
 	property "sonar.projectKey", "BeatBox"
 	property "sonar.projectName", "BeatBox"
-	property "sonar.token","sqp_03023a38d1d0f0cfc68a08d5c4a5d473b8c47348"
   }
 }
 
