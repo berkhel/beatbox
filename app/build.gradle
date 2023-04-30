@@ -58,5 +58,9 @@ sonar {
     properties{
 	property "sonar.java.checkstyle.reportPaths", "$buildDir/reports/checkstyle/main.xml,$buildDir/reports/checkstyle/test.xml"
 
-    }
+	property "sonar.projectKey", "BeatBox"
+	property "sonar.projectName", "BeatBox"
+  }
 }
+
+
