@@ -5,11 +5,8 @@ node {
     checkout scm
   }
   stage('SonarQube Analysis') {
-    environment{
-      TOKEN = credentials('pippo-sonar')  
-    }
     withSonarQubeEnv() {
-      sh "./gradlew sonar -Dsonar.token=${TOKEN}"
+      sh "./gradlew sonar -Dsonar.token=${SONAR_TOKEN}"
     }
   }
 }
